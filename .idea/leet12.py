@@ -10,10 +10,19 @@
 
 # print(fun())
 
-users = ["guest","guest", "user", "admin"]
+# users = ["guest","guest", "user", "admin"]
 
-for u in users:
-    users = [u for u in users if u != "guest"]
-    # if u == "guest":
-    #     users.remove(u)
-print(users)
+# for u in users:
+#     users = [u for u in users if u != "guest"]
+#     # if u == "guest":
+#     #     users.remove(u)
+# print(users)
+
+class Solution(object):
+    def checkIfPangram(self, sentence):
+        sentense = "thequickbrownfoxjumpsoverthelazydog"
+        if len(sentence) < 26:
+            return False
+        elif len(sentence):
+            set(se)
+    #print(checkIfPangram("thequickbrownfoxjumpsoverthelazydog"))
